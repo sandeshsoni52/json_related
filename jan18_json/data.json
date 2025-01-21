@@ -1,0 +1,12 @@
+[
+    {
+        "course": "chemical",
+        "degree": "B.Tech Chemical Engineering",
+        "HOD": "xyz"
+    },
+    {
+        "course": "civil",
+        "degree": "B.Tech Civil Engineering",
+        "HOD": "abc"
+    }
+]
