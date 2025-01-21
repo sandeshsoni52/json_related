@@ -458,7 +458,6 @@ data = {
 
 
 }
-
 @app.route('/data', methods=['GET'])
 def get_all_data():
     return jsonify(data)
@@ -471,57 +470,61 @@ def get_program_type(program_type):
         return jsonify({program_type: filtered_data})
     else:
         return jsonify({"error": "Program type not found"}), 404
-    
+
 @app.route('/data/<program_type>/<category>', methods=['GET'])
 def get_category(program_type, category):
     program_type = program_type.replace("-", " ")  # Handle spaces in URLs
-    category = category.replace("-", " ")    # Handle spaces in URLs
+    category = category.replace("-", " ")  # Handle spaces in URLs
     program_data = data["Programs"].get(program_type.title())
     if program_data and category in program_data:
         return jsonify({category: program_data[category]})
     else:
         return jsonify({"error": "Sub-program not found"}), 404
 
+@app.route('/data/<program_type>/<category>/<institute>', methods=['GET'])
+def get_institute(program_type, category, institute):
+    program_type = program_type.replace("-", " ")  # Handle spaces in URLs
+    category = category.replace("-", " ")  # Handle spaces in URLs
+    institute = institute.replace("-", " ")  # Handle spaces in URLs
 
-
-
-
-
-
-
-@app.route('/programs/<category>/<institute>', methods=['GET'])
-def get_institute(category, institute):
-    # """Return a specific institute's programs within a category."""
-    programs = data.get("Programs", {}).get("Under Graduate Programs", {})
-    category_data = programs.get(category, None)
-    if category_data:
-        institute_data = category_data.get(institute, None)
-        if institute_data:
-            return jsonify(institute_data)
-        else:
-            return jsonify({"error": f"Institute '{institute}' not found in category '{category}'"}), 404
-    else:
-        return jsonify({"error": f"Category '{category}' not found"}), 404
-
-
-@app.route('/programs/<category>/<institute>/<degree>', methods=['GET'])
-def get_degree_programs(category, institute, degree):
-    """Return a specific degree's programs in an institute within a category."""
-    programs = data.get("Programs", {}).get("Under Graduate Programs", {})
-    category_data = programs.get(category, None)
-    if category_data:
-        institute_data = category_data.get(institute, None)
-        if institute_data:
-            degree_data = institute_data.get(degree, None)
-            if degree_data:
-                return jsonify(degree_data)
+    program_data = data["Programs"].get(program_type.title())
+    if program_data:
+        category_data = program_data.get(category)
+        if category_data:
+            institute_data = category_data.get(institute)
+            if institute_data:
+                return jsonify({institute: institute_data})
             else:
-                return jsonify({"error": f"Degree '{degree}' not found in institute '{institute}'"}), 404
+                return jsonify({"error": f"Institute '{institute}' not found in category '{category}'"}), 404
         else:
-            return jsonify({"error": f"Institute '{institute}' not found in category '{category}'"}), 404
+            return jsonify({"error": f"Category '{category}' not found in program type '{program_type}'"}), 404
     else:
-        return jsonify({"error": f"Category '{category}' not found"}), 404
+        return jsonify({"error": f"Program type '{program_type}' not found"}), 404
 
+@app.route('/data/<program_type>/<category>/<institute>/<degree>', methods=['GET'])
+def get_degree_programs(program_type, category, institute, degree):
+    program_type = program_type.replace("-", " ")  # Handle spaces in URLs
+    category = category.replace("-", " ")  # Handle spaces in URLs
+    institute = institute.replace("-", " ")  # Handle spaces in URLs
+    degree = degree.replace("-", " ")  # Handle spaces in URLs
+
+    program_data = data["Programs"].get(program_type.title())
+    if program_data:
+        category_data = program_data.get(category)
+        if category_data:
+            institute_data = category_data.get(institute)
+            if institute_data:
+                degree_data = institute_data.get(degree)
+                if degree_data:
+                    return jsonify({degree: degree_data})
+                else:
+                    return jsonify({"error": f"Degree '{degree}' not found in institute '{institute}'"}), 404
+            else:
+                return jsonify({"error": f"Institute '{institute}' not found in category '{category}'"}), 404
+        else:
+            return jsonify({"error": f"Category '{category}' not found in program type '{program_type}'"}), 404
+    else:
+        return jsonify({"error": f"Program type '{program_type}' not found"}), 404
 
 if __name__ == '__main__':
     app.run(debug=True, port=8000)
