@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 import json
 
 app = Flask(__name__)
@@ -6,8 +7,8 @@ app = Flask(__name__)
 # Load the JSON data once when the app starts
 data = {
     "Programs": {
-        "Under Graduate Programs": {
-            "Engineering & Technology": {
+        "undergraduate": {
+            "engineering": {
                 "Jawaharlal Nehru Engineering College": {
                     "B Tech": [
                         "Chemical Engineering",
@@ -59,7 +60,7 @@ data = {
                     ]
                 }
             },
-            "Management & Commerce": {
+            "management": {
                 "Institute of Management & Research": {
                     "BBA": [
                         "Hons./ Hons. with Research",
@@ -97,7 +98,7 @@ data = {
                     ]
                 }
             },
-            "Basic & Applied Science": {
+            "basicappliedscience": {
                 "Dr. G.Y. Pathrikar College of Computer Science & Information Technology": {
                     "B Sc": [
                         "Hons. Computer Science",
@@ -140,7 +141,7 @@ data = {
                     ]
                 }
             },
-            "Social Science & Humanities": {
+            "socialscience": {
                 "College of Journalism & Mass Communication": {
                     "B A": [
                         "International Journalism & Electronic Media",
@@ -204,7 +205,7 @@ data = {
                     ]
                 }
             },
-            "Design": {
+            "design": {
                 "Leonardo Da Vinci School of Design": {
                     "BFA": [
                         "Applied Art",
@@ -220,7 +221,7 @@ data = {
                     ]
                 }
             },
-            "Performing Arts": {
+            "performingarts": {
                 "MAHAGAMI GURUKUL Center for Performing Arts": {
                     "BPA": [
                         "Kathak (Lab and Kathak)",
@@ -229,8 +230,8 @@ data = {
                 }
             }
         },
-        "Post Graduate Programs": {
-            "Engineering & Technology": {
+        "postgraduate": {
+            "engineering": {
                 "Jawaharlal Nehru Engineering College": {
                     "B Tech": [
                         "Chemical Engineering",
@@ -282,7 +283,7 @@ data = {
                     ]
                 }
             },
-            "Management & Commerce": {
+            "management": {
                 "Institute of Management & Research": {
                     "BBA": [
                         "Hons./ Hons. with Research",
@@ -320,7 +321,7 @@ data = {
                     ]
                 }
             },
-            "Basic & Applied Science": {
+            "basicappliedscience": {
                 "Dr. G.Y. Pathrikar College of Computer Science & Information Technology": {
                     "B Sc": [
                         "Hons. Computer Science",
@@ -363,7 +364,7 @@ data = {
                     ]
                 }
             },
-            "Social Science & Humanities": {
+            "socialscience": {
                 "College of Journalism & Mass Communication": {
                     "B A": [
                         "International Journalism & Electronic Media",
@@ -458,30 +459,39 @@ data = {
 
 
 }
-@app.route('/data', methods=['GET'])
+@app.route('/all', methods=['GET'])
 def get_all_data():
     return jsonify(data)
 
-@app.route('/data/<program_type>', methods=['GET'])
+@app.route('/all/<program_type>', methods=['GET'])
 def get_program_type(program_type):
-    program_type = program_type.replace("-", " ")  # Handle spaces in URLs
-    filtered_data = data["Programs"].get(program_type.title())
+    # # program_type = program_type.replace("-", " ")  # Handle spaces in URLs
+    # program_type = program_type.lower()  # Normalize input to lowercase
+    # filtered_data = data["Programs"].get(program_type.title())
+
+    # valid_program_types = ["undergraduate", "postgraduate"]  # Define valid program types
+    # if program_type not in valid_program_types:
+    #     return jsonify({"error": f"Invalid program type '{program_type}'. Valid types are: {', '.join(valid_program_types)}"}), 400
+
+    # Directly use program_type as a key in the data dictionary
+    filtered_data = data["Programs"].get(program_type)
+    
     if filtered_data:
         return jsonify({program_type: filtered_data})
     else:
         return jsonify({"error": "Program type not found"}), 404
 
-@app.route('/data/<program_type>/<category>', methods=['GET'])
+@app.route('/all/<program_type>/<category>', methods=['GET'])
 def get_category(program_type, category):
-    program_type = program_type.replace("-", " ")  # Handle spaces in URLs
-    category = category.replace("-", " ")  # Handle spaces in URLs
+    # program_type = program_type.replace("-", " ")  # Handle spaces in URLs
+    # category = category.replace("-", " ")  # Handle spaces in URLs
     program_data = data["Programs"].get(program_type.title())
     if program_data and category in program_data:
         return jsonify({category: program_data[category]})
     else:
         return jsonify({"error": "Sub-program not found"}), 404
 
-@app.route('/data/<program_type>/<category>/<institute>', methods=['GET'])
+@app.route('/all/<program_type>/<category>/<institute>', methods=['GET'])
 def get_institute(program_type, category, institute):
     program_type = program_type.replace("-", " ")  # Handle spaces in URLs
     category = category.replace("-", " ")  # Handle spaces in URLs
@@ -501,7 +511,7 @@ def get_institute(program_type, category, institute):
     else:
         return jsonify({"error": f"Program type '{program_type}' not found"}), 404
 
-@app.route('/data/<program_type>/<category>/<institute>/<degree>', methods=['GET'])
+@app.route('/all/<program_type>/<category>/<institute>/<degree>', methods=['GET'])
 def get_degree_programs(program_type, category, institute, degree):
     program_type = program_type.replace("-", " ")  # Handle spaces in URLs
     category = category.replace("-", " ")  # Handle spaces in URLs
