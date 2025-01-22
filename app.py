@@ -71,7 +71,7 @@ data = {
                         "Hons./ Hons. with Research"
                     ]
                 },
-                "Institute of Hotel Management": {
+                "ihm": {
                     "B Sc": [
                         "Hons. Hotel Operations Catering Services"
                     ],
@@ -465,10 +465,6 @@ def get_all_data():
 
 @app.route('/all/<program_type>', methods=['GET'])
 def get_program_type(program_type):
-    # # program_type = program_type.replace("-", " ")  # Handle spaces in URLs
-    # program_type = program_type.lower()  # Normalize input to lowercase
-    # filtered_data = data["Programs"].get(program_type.title())
-
     # valid_program_types = ["undergraduate", "postgraduate"]  # Define valid program types
     # if program_type not in valid_program_types:
     #     return jsonify({"error": f"Invalid program type '{program_type}'. Valid types are: {', '.join(valid_program_types)}"}), 400
@@ -485,7 +481,7 @@ def get_program_type(program_type):
 def get_category(program_type, category):
     # program_type = program_type.replace("-", " ")  # Handle spaces in URLs
     # category = category.replace("-", " ")  # Handle spaces in URLs
-    program_data = data["Programs"].get(program_type.title())
+    program_data = data["Programs"].get(program_type)
     if program_data and category in program_data:
         return jsonify({category: program_data[category]})
     else:
@@ -493,11 +489,11 @@ def get_category(program_type, category):
 
 @app.route('/all/<program_type>/<category>/<institute>', methods=['GET'])
 def get_institute(program_type, category, institute):
-    program_type = program_type.replace("-", " ")  # Handle spaces in URLs
-    category = category.replace("-", " ")  # Handle spaces in URLs
-    institute = institute.replace("-", " ")  # Handle spaces in URLs
+    # program_type = program_type.replace("-", " ")  # Handle spaces in URLs
+    # category = category.replace("-", " ")  # Handle spaces in URLs
+    # institute = institute.replace("-", " ")  # Handle spaces in URLs
 
-    program_data = data["Programs"].get(program_type.title())
+    program_data = data["Programs"].get(program_type)
     if program_data:
         category_data = program_data.get(category)
         if category_data:
@@ -518,7 +514,7 @@ def get_degree_programs(program_type, category, institute, degree):
     institute = institute.replace("-", " ")  # Handle spaces in URLs
     degree = degree.replace("-", " ")  # Handle spaces in URLs
 
-    program_data = data["Programs"].get(program_type.title())
+    program_data = data["Programs"].get(program_type)
     if program_data:
         category_data = program_data.get(category)
         if category_data:
