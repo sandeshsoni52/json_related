@@ -527,4 +527,4 @@ def get_degree_programs(program_type, category, institute, degree):
         return jsonify({"error": f"Program type '{program_type}' not found"}), 404
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8000)
+    app.run(host='0.0.0.0', port=8088)
