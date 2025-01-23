@@ -4,8 +4,12 @@ import json
 
 app = Flask(__name__)
 CORS(app)
+
+# Load JSON data ONCE when the app starts
+with open('dataj23.json', 'r') as file:
+    data = json.load(file)
 # Load the JSON data once when the app starts
-data = {
+data_unused = {
     "Programs": {
         "undergraduate": {
             "engineering": {
