@@ -3,7 +3,7 @@ from flask_cors import CORS
 import json
 
 app = Flask(__name__)
-
+CORS(app)
 # Load the JSON data once when the app starts
 data = {
     "Programs": {
