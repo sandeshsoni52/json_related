@@ -2,230 +2,205 @@
     {
         "Programs": {
             "undergraduate": {
-                "engineering": {
-                    "Jawaharlal Nehru Engineering College": {
-                        "B Tech": [
-                            "Chemical Engineering",
-                            "Civil Engineering",
-                            "Computer Science and Engineering",
-                            "Electrical and Computer Engineering",
-                            "Mechanical Engineering",
-                            "Robotics and Artificial Intelligence",
-                            "Mechanical and Mechatronics Engineering (Additive Manufacturing)",
-                            "Electronics and Computer Engineering",
-                            "Artificial Intelligence & Data Science"
-                        ],
-                        "Bachelor": [
-                            "Architecture"
-                        ]
-                    },
-                    "Institute of Fire Service Engineering": {
-                        "B Sc": [
-                            "Fire and Safety"
-                        ]
-                    },
-                    "University Department of Information and Communication Technology (UDICT)": {
-                        "B Tech": [
-                            "Information Technology",
-                            "AI & ML",
-                            "Data Science"
-                        ]
-                    },
-                    "School of Engineering & Technology": {
-                        "B Tech": [
-                            "Agriculture Engineering",
-                            "Computer Science & Engineering (IoT, Cyber Security)",
-                            "Electrical and Instrumentation Engineering",
-                            "(Integrated) Civil Engineering with Computer Application",
-                            "(Integrated) Computer Science and Engineering (Data Science)",
-                            "(Integrated) Computer Science and Engineering (IoT)",
-                            "(Integrated) Advanced Mechatronics and Industrial Automation",
-                            "(Integrated) Robotics and AI",
-                            "Electronic Engineering (VLSI Design and Technology)",
-                            "(Integrated) Information Technology",
-                            "(Integrated) Electrical and Computer Engineering",
-                            "Computer Science and Design",
-                            "Robotics and Automation"
-                        ]
-                    },
-                    "University Department of Pharmaceutical Sciences": {
-                        "Bachelor": [
-                            "Pharmacy"
-                        ]
-                    }
-                },
-                "management": {
-                    "Institute of Management & Research": {
-                        "BBA": [
-                            "Hons./ Hons. with Research",
-                            "Hons./ Hons. with Research in FinTech",
-                            "Hons./ Hons. with Research in Business Analytics"
-                        ],
-                        "B Com": [
-                            "Hons./ Hons. with Research"
-                        ]
-                    },
-                    "ihm": {
-                        "BSc": [
-                            "Hons. Hotel Operations Catering Services"
-                        ],
-                        "BBA": [
-                            "Hons. in Aviation, Hospitality and Travel & Tourism"
-                        ],
-                        "B Sc": [
-                            "Hons. Culinary Arts"
-                        ]
-                    },
-                    "Nath School of Business & Technology": {
-                        "Bachelor": [
-                            "Management Studies (BMS)"
-                        ],
-                        "BCA": [
-                            "Cloud Technology & Information Security"
-                        ],
-                        "MCA": [
-                            "Digital Product Technology",
-                            "Artificial Intelligence - Data Science"
-                        ],
-                        "BMS": [
-                            "Entrepreneurship, Family Business and Innovation"
-                        ]
-                    }
-                },
                 "basicappliedscience": {
                     "Dr. G.Y. Pathrikar College of Computer Science & Information Technology": {
-                        "B Sc": [
-                            "Hons. Computer Science",
-                            "Hons. Information Technology",
-                            "Hons. Science",
-                            "Hons. Animation",
-                            "Hons. Robotics",
-                            "Hons. Digital Marketing",
-                            "M Sc. Data Science (Integrated)"
+                        "Courses": [
+                            "B Sc Hons. Computer Science",
+                            "B Sc Hons. Information Technology",
+                            "B Sc Hons. Science",
+                            "B Sc Hons. Animation",
+                            "B Sc Hons. Robotics",
+                            "B Sc Hons. Digital Marketing",
+                            "M Sc Data Science (Integrated)"
                         ]
                     },
                     "Institute of Bioscience and Technology": {
-                        "B Sc": [
-                            "Hons. Biotechnology",
-                            "Hons. Bioinformatics",
-                            "Hons. Microbiology",
-                            "Hons. Food Technology & Processing",
-                            "Hons. Food Nutrition & Dietetics"
-                        ],
-                        "B Tech": [
-                            "Biotechnology",
-                            "Food Processing Technology",
-                            "Biomedical Engineering"
+                        "Courses": [
+                            "B Sc Hons. Biotechnology",
+                            "B Sc Hons. Bioinformatics",
+                            "B Sc Hons. Microbiology",
+                            "B Sc Hons. Food Technology & Processing",
+                            "B Sc Hons. Food Nutrition & Dietetics",
+                            "B Tech Biotechnology",
+                            "B Tech Food Processing Technology",
+                            "B Tech Biomedical Engineering"
                         ]
                     },
                     "School of Basic & Applied Science": {
-                        "B Sc": [
-                            "Hons. Physics",
-                            "Hons. Chemistry",
-                            "Hons. Mathematics",
-                            "Hons. Statistics",
-                            "Hons. Geology",
-                            "Hons. Home Science",
-                            "Hons. Environmental Science",
-                            "Hons. Zoology",
-                            "Hons. Forensic Science"
-                        ],
-                        "B Tech": [
-                            "Cosmetic Technology"
-                        ]
-                    }
-                },
-                "socialscience": {
-                    "College of Journalism & Mass Communication": {
-                        "B A": [
-                            "International Journalism & Electronic Media",
-                            "Hons./Reg. with Research in Mass Communication and Media"
-                        ]
-                    },
-                    "Institute of Social Sciences": {
-                        "Bachelor": [
-                            "Social Work (BSW)"
-                        ],
-                        "B A": [
-                            "Hons. Psychology",
-                            "Hons. Economics"
-                        ]
-                    },
-                    "School of Film Arts": {
-                        "B A": [
-                            "Hons. Cinematography",
-                            "Hons. Film Direction",
-                            "Hons. Film Editing",
-                            "Hons. Sound Designing & Music Production",
-                            "Hons. VFX and Animation",
-                            "Hons. Film Acting",
-                            "Hons. Production Design & Art Direction"
-                        ]
-                    },
-                    "Department of Photography": {
-                        "B A": [
-                            "Hons. Photography"
-                        ]
-                    },
-                    "Institute of Indian & Foreign Languages": {
-                        "B A": [
-                            "Hons. English"
-                        ]
-                    },
-                    "School of Legal Studies & Research": {
-                        "Bachelor": [
-                            "Law (LL.B.)"
-                        ],
-                        "BBA": [
-                            "Bachelor of Business Administration and Bachelor of Law"
-                        ]
-                    }
-                },
-                "Interdisciplinary Studies": {
-                    "Department of Sports, Physical Education & Yog Science": {
-                        "B P E S": [
-                            "Bachelor of Physical Education & Sports"
-                        ]
-                    },
-                    "Department of Education": {
-                        "B A": [
-                            "Hons. Education"
-                        ]
-                    },
-                    "University Department of Music & Theatre": {
-                        "BPA": [
-                            "Music",
-                            "Theatre"
+                        "Courses": [
+                            "B Sc Hons. Physics",
+                            "B Sc Hons. Chemistry",
+                            "B Sc Hons. Mathematics",
+                            "B Sc Hons. Statistics",
+                            "B Sc Hons. Geology",
+                            "B Sc Hons. Home Science",
+                            "B Sc Hons. Environmental Science",
+                            "B Sc Hons. Zoology",
+                            "B Sc Hons. Forensic Science",
+                            "B Tech Cosmetic Technology"
                         ]
                     }
                 },
                 "design": {
                     "Leonardo Da Vinci School of Design": {
-                        "BFA": [
-                            "Applied Art",
-                            "Contemporary Art",
-                            "Traditional Art and Craft"
-                        ],
-                        "B Des": [
-                            "Interior Design",
-                            "Fashion Design",
-                            "Textile Design",
-                            "Industrial Design",
-                            "Visual Communication"
+                        "Courses": [
+                            "BFA Applied Art",
+                            "BFA Contemporary Art",
+                            "BFA Traditional Art and Craft",
+                            "B Des Interior Design",
+                            "B Des Fashion Design",
+                            "B Des Textile Design",
+                            "B Des Industrial Design",
+                            "B Des Visual Communication"
+                        ]
+                    }
+                },
+                "engineering": {
+                    "Jawaharlal Nehru Engineering College": {
+                        "Courses": [
+                            "B Tech Chemical Engineering",
+                            "B Tech Civil Engineering",
+                            "B Tech Computer Science and Engineering",
+                            "B Tech Electrical and Computer Engineering",
+                            "B Tech Mechanical Engineering",
+                            "B Tech Robotics and Artificial Intelligence",
+                            "B Tech Mechanical and Mechatronics Engineering (Additive Manufacturing)",
+                            "B Tech Electronics and Computer Engineering",
+                            "B Tech Artificial Intelligence & Data Science",
+                            "Bachelor Architecture"
+                        ]
+                    },
+                    "Institute of Fire Service Engineering": {
+                        "Courses": [
+                            "B Sc Fire and Safety"
+                        ]
+                    },
+                    "University Department of Information and Communication Technology (UDICT)": {
+                        "Courses": [
+                            "B Tech Information Technology",
+                            "B Tech AI & ML",
+                            "B Tech Data Science"
+                        ]
+                    },
+                    "School of Engineering & Technology": {
+                        "Courses": [
+                            "B Tech Agriculture Engineering",
+                            "B Tech Computer Science & Engineering (IoT, Cyber Security)",
+                            "B Tech Electrical and Instrumentation Engineering",
+                            "B Tech (Integrated) Civil Engineering with Computer Application",
+                            "B Tech (Integrated) Computer Science and Engineering (Data Science)",
+                            "B Tech (Integrated) Computer Science and Engineering (IoT)",
+                            "B Tech (Integrated) Advanced Mechatronics and Industrial Automation",
+                            "B Tech (Integrated) Robotics and AI",
+                            "B Tech Electronic Engineering (VLSI Design and Technology)",
+                            "B Tech (Integrated) Information Technology",
+                            "B Tech (Integrated) Electrical and Computer Engineering",
+                            "B Tech Computer Science and Design",
+                            "B Tech Robotics and Automation"
+                        ]
+                    },
+                    "University Department of Pharmaceutical Sciences": {
+                        "Courses": [
+                            "Bachelor Pharmacy"
+                        ]
+                    }
+                },
+                "interdisciplinarystudies": {
+                    "Department of Sports, Physical Education & Yog Science": {
+                        "Courses": [
+                            "B P E S Bachelor of Physical Education & Sports"
+                        ]
+                    },
+                    "Department of Education": {
+                        "Courses": [
+                            "B A Hons. Education"
+                        ]
+                    },
+                    "University Department of Music & Theatre": {
+                        "Courses": [
+                            "BPA Music",
+                            "BPA Theatre"
+                        ]
+                    }
+                },
+                "management": {
+                    "Institute of Management & Research": {
+                        "Courses": [
+                            "BBA Hons./ Hons. with Research",
+                            "BBA Hons./ Hons. with Research in FinTech",
+                            "BBA Hons./ Hons. with Research in Business Analytics",
+                            "B Com Hons./ Hons. with Research"
+                        ]
+                    },
+                    "hotelmanagement": {
+                        "Courses": [
+                            "B Sc Hons. Hotel Operations Catering Services",
+                            "BBA Hons. in Aviation, Hospitality and Travel & Tourism",
+                            "B Sc Hons. Culinary Arts"
+                        ]
+                    },
+                    "Nath School of Business & Technology": {
+                        "Courses": [
+                            "Bachelor Management Studies (BMS)",
+                            "BCA Cloud Technology & Information Security",
+                            "MCA Digital Product Technology",
+                            "MCA Artificial Intelligence - Data Science",
+                            "BMS Entrepreneurship, Family Business and Innovation"
                         ]
                     }
                 },
                 "performingarts": {
                     "MAHAGAMI GURUKUL Center for Performing Arts": {
-                        "BPA": [
-                            "Kathak (Lab and Kathak)",
-                            "Odissi (Lab and Gurukul)"
+                        "Courses": [
+                            "BPA Kathak (Lab and Kathak)",
+                            "BPA Odissi (Lab and Gurukul)"
+                        ]
+                    }
+                },
+                "socialscience": {
+                    "College of Journalism & Mass Communication": {
+                        "Courses": [
+                            "B A International Journalism & Electronic Media",
+                            "B A Hons./Reg. with Research in Mass Communication and Media"
+                        ]
+                    },
+                    "Institute of Social Sciences": {
+                        "Courses": [
+                            "Bachelor Social Work (BSW)",
+                            "B A Hons. Psychology",
+                            "B A Hons. Economics"
+                        ]
+                    },
+                    "School of Film Arts": {
+                        "Courses": [
+                            "B A Hons. Cinematography",
+                            "B A Hons. Film Direction",
+                            "B A Hons. Film Editing",
+                            "B A Hons. Sound Designing & Music Production",
+                            "B A Hons. VFX and Animation",
+                            "B A Hons. Film Acting",
+                            "B A Hons. Production Design & Art Direction"
+                        ]
+                    },
+                    "Department of Photography": {
+                        "Courses": [
+                            "B A Hons. Photography"
+                        ]
+                    },
+                    "Institute of Indian & Foreign Languages": {
+                        "Courses": [
+                            "B A Hons. English"
+                        ]
+                    },
+                    "School of Legal Studies & Research": {
+                        "Courses": [
+                            "Bachelor Law (LL.B.)",
+                            "BBA Bachelor of Business Administration and Bachelor of Law"
                         ]
                     }
                 }
             },
-            "postgraduate": {
-            }
+            "postgraduate": {}
         }
     }
 ]
