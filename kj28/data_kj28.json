@@ -634,6 +634,33 @@
                         ]
                     }
                 }
+            },
+            "directsecondyear": {
+                "engineering": {
+                    "JawaharlalNehruEngineeringCollege": {
+                        "courses": [
+                            "DSY B.Tech Civil Engineering",
+                            "DSY B.Tech Mechanical Engineering",
+                            "DSY B.Tech Chemical Engineering",
+                            "DSY B.Tech Computer Science Engineering",
+                            "DSY B.Tech Electronics and Computer Engineering",
+                            "DSY B.Tech Electrical and Computer Engineering",
+                            "DSY B.Tech Robotics and Artificial Intelligence",
+                            "DSY B.Tech Mechanical and Mechatronics Engineering",
+                            "DSY B.Tech Artificial Intelligence (AI) and Data Science",
+                            "DSY B.Tech Civil Engineering (Construction Technology)",
+                            "DSY B.Tech Civil Engineering with Computer Application"
+                        ]
+                    }
+                },
+                "Design": {
+                    "LeonardoDaVinciSchoolOfDesign": {
+                        "courses": [
+                            "DSY Bachelor of Fashion Design",
+                            "DSY Bachelor of Textile Design"
+                        ]
+                    }
+                }
             }
         }
     }
