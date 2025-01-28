@@ -481,7 +481,7 @@
                     }
                 }
             },
-            "certificate_duplicate": {
+            "ug_blank_duplicate": {
                 "basicAppliedScience": {
                     "Dr.G.Y.PathrikarCollegeOfComputerScienceAndInformationTechnology": {
                         "courses": []
@@ -658,6 +658,76 @@
                         "courses": [
                             "DSY Bachelor of Fashion Design",
                             "DSY Bachelor of Textile Design"
+                        ]
+                    }
+                }
+            },
+            "pgdiploma": {
+                "basicAppliedScience": {
+                    "SchoolOfBasicAndAppliedScience": {
+                        "courses": [
+                            "PG Diploma in Forensic Science and Crime Scene Management"
+                        ]
+                    }
+                },
+                "design": {
+                    "LeonardoDaVinciSchoolOfDesign": {
+                        "courses": [
+                            "PG Diploma in Fashion Management"
+                        ]
+                    }
+                },
+                "engineering": {
+                    "InstituteOfFireServiceEngineering": {
+                        "courses": [
+                            "Advance Diploma in Industrial Safety",
+                            "Advanced Diploma in Fire and Safety Engineering",
+                            "PG Diploma in Disaster Management"
+                        ]
+                    }
+                },
+                "interdisciplinaryStudies": {
+                    "SchoolOfInterdisciplinaryStudies": {
+                        "courses": [
+                            "PG Diploma in Cosmetic Technology"
+                        ]
+                    }
+                },
+                "management": {
+                    "hotelManagement": {
+                        "courses": [
+                            "Post Degree Diploma Program in Hotel Operations"
+                        ]
+                    },
+                    "InstituteOfManagementAndResearch": {
+                        "courses": [
+                            "PG Diploma in Hospital Management",
+                            "PG Diploma in Sports Management",
+                            "PG Diploma in FinTech"
+                        ]
+                    }
+                },
+                "socialScience": {
+                    "CollegeOfJournalismAndMassCommunication": {
+                        "courses": [
+                            "Advertising & Public Relations"
+                        ]
+                    },
+                    "DepartmentOfPhotography": {
+                        "courses": [
+                            "PG Diploma in Still Photography"
+                        ]
+                    },
+                    "InstituteOfSocialSciences": {
+                        "courses": [
+                            "PG Diploma in Guidance & Counseling"
+                        ]
+                    },
+                    "SchoolOfLegalStudiesAndResearch": {
+                        "courses": [
+                            "PG Diploma in Taxation Law",
+                            "PG Diploma in Labor Law and Labor Welfare",
+                            "PG Diploma in Cyber Law"
                         ]
                     }
                 }

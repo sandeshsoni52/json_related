@@ -1,0 +1,105 @@
+{
+  "Programs": [
+    {
+      "ProgramLevel": "PG Diploma Programs",
+      "Categories": [
+        {
+          "CategoryName": "Engineering & Technology",
+          "Institutions": [
+            {
+              "InstitutionName": "Institute of Fire Service Engineering",
+              "Courses": [
+                "Advance Diploma in Industrial Safety",
+                "Advanced Diploma in Fire and Safety Engineering",
+                "PG Diploma in Disaster Management"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Basic & Applied Science",
+          "Institutions": [
+            {
+              "InstitutionName": "School of Basic & Applied Science",
+              "Courses": [
+                "PG Diploma in Forensic Science and Crime Scene Management"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Management & Commerce",
+          "Institutions": [
+            {
+              "InstitutionName": "Institute of Management & Research",
+              "Courses": [
+                "PG Diploma in Hospital Management",
+                "PG Diploma in Sports Management",
+                "PG Diploma in FinTech"
+              ]
+            },
+            {
+              "InstitutionName": "Institute of Hotel Management",
+              "Courses": [
+                "Post Degree Diploma Program in Hotel Operations"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Social Science & Humanities",
+          "Institutions": [
+            {
+              "InstitutionName": "College of Journalism & Mass Communication",
+              "Courses": [
+                "Advertising & Public Relations"
+              ]
+            },
+            {
+              "InstitutionName": "Institute of Social Sciences",
+              "Courses": [
+                "PG Diploma in Guidance & Counseling"
+              ]
+            },
+            {
+              "InstitutionName": "Department of Photography",
+              "Courses": [
+                "PG Diploma in Still Photography"
+              ]
+            },
+            {
+              "InstitutionName": "School of Legal Studies & Research",
+              "Courses": [
+                "PG Diploma in Taxation Law",
+                "PG Diploma in Labor Law and Labor Welfare",
+                "PG Diploma in Cyber Law"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Interdisciplinary Studies",
+          "Institutions": [
+            {
+              "InstitutionName": "School of Interdisciplinary Studies",
+              "Courses": [
+                "PG Diploma in Cosmetic Technology"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Design",
+          "Institutions": [
+            {
+              "InstitutionName": "Leonardo Da Vinci School of Design",
+              "Courses": [
+                "PG Diploma in Fashion Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
