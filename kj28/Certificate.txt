@@ -1,0 +1,99 @@
+{
+  "Programs": [
+    {
+      "ProgramLevel": "Certificate Programs",
+      "Categories": [
+        {
+          "CategoryName": "Social Science & Humanities",
+          "Institutions": [
+            {
+              "InstitutionName": "College of Journalism & Mass Communication",
+              "Courses": [
+                "Radio Jockey",
+                "Video Production",
+                "Certificate in Video Production"
+              ]
+            },
+            {
+              "InstitutionName": "Institute of Social Sciences",
+              "Courses": [
+                "Archaeology and Heritage Studies",
+                "Certificate Course in Indian Numismatics"
+              ]
+            },
+            {
+              "InstitutionName": "Department of Photography",
+              "Courses": [
+                "Certificate in Basics of Photography"
+              ]
+            },
+            {
+              "InstitutionName": "Institute of Indian & Foreign Languages",
+              "Courses": [
+                "Certificate in Sanskrit",
+                "Certificate in French",
+                "Certificate in German",
+                "Certificate in Spanish",
+                "Certificate Program for Preparations of IELTS"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Interdisciplinary Studies",
+          "Institutions": [
+            {
+              "InstitutionName": "Department of Gandhian Studies",
+              "Courses": [
+                "Constitution and Human Rights",
+                "Dealing with Conflict",
+                "Social Responsibility"
+              ]
+            },
+            {
+              "InstitutionName": "University Department of Music & Theatre",
+              "Courses": [
+                "Certificate Course in Folk Music",
+                "Certificate Course in Music Instruments",
+                "Certificate Course in Sugam Sangeet",
+                "Certificate Course in Theatre Art"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Design",
+          "Institutions": [
+            {
+              "InstitutionName": "Leonardo Da Vinci School of Design",
+              "Courses": [
+                "Certificate Course in Fashion Design and Boutique Management",
+                "Certificate Course in Painting",
+                "Certificate Course in Bidri Works",
+                "Certificate Course in Ceramics and Pottery",
+                "UG Certificate Course in Animation and Graphic Design"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Performing Arts",
+          "Institutions": [
+            {
+              "InstitutionName": "MAHAGAMI GURUKUL Center for Performing Arts",
+              "Courses": [
+                "Foundation Certificate in Music (Kalā Ādhār)",
+                "Foundation Certificate in Manipuri Dance (Kalā Ādhār)",
+                "Certificate in Dance Appreciation (Kalā Sparsh)",
+                "Foundation Certificate in Odissi Dance (Kalā Ādhār)",
+                "Foundation Certificate in Kathak Dance (Kalā Ādhār)",
+                "Certificate in Spoken Sanskrit (Saṃskritāyanam)",
+                "Certificate in Indian Theatre Arts (Rangārka)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -393,36 +393,6 @@
                     }
                 }
             },
-            "certicatemaybe": {
-                "": {
-                    "": {
-                        "courses": []
-                    },
-                    "": {
-                        "courses": []
-                    },
-                    "": {
-                        "courses": []
-                    },
-                    "": {
-                        "courses": []
-                    }
-                },
-                "": {
-                    "": {
-                        "courses": []
-                    },
-                    "": {
-                        "courses": []
-                    },
-                    "": {
-                        "courses": []
-                    },
-                    "": {
-                        "courses": []
-                    }
-                }
-            },
             "diploma": {
                 "basicAppliedScience": {
                     "SchoolOfBasicAndAppliedScience": {
@@ -511,7 +481,7 @@
                     }
                 }
             },
-            "diploma_duplicate": {
+            "certificate_duplicate": {
                 "basicAppliedScience": {
                     "Dr.G.Y.PathrikarCollegeOfComputerScienceAndInformationTechnology": {
                         "courses": []
@@ -590,6 +560,78 @@
                     },
                     "SchoolOfLegalStudiesAndResearch": {
                         "courses": []
+                    }
+                }
+            },
+            "certificate": {
+                "design": {
+                    "LeonardoDaVinciSchoolOfDesign": {
+                        "courses": [
+                            "Certificate Course in Fashion Design and Boutique Management",
+                            "Certificate Course in Painting",
+                            "Certificate Course in Bidri Works",
+                            "Certificate Course in Ceramics and Pottery",
+                            "UG Certificate Course in Animation and Graphic Design"
+                        ]
+                    }
+                },
+                "interdisciplinaryStudies": {
+                    "DepartmentOfGandhianStudies": {
+                        "courses": [
+                            "Constitution and Human Rights",
+                            "Dealing with Conflict",
+                            "Social Responsibility"
+                        ]
+                    },
+                    "UniversityDepartmentOfMusicAndTheatre": {
+                        "courses": [
+                            "Certificate Course in Folk Music",
+                            "Certificate Course in Music Instruments",
+                            "Certificate Course in Sugam Sangeet",
+                            "Certificate Course in Theatre Art"
+                        ]
+                    }
+                },
+                "performingArts": {
+                    "MAHAGAMIGURUKULCenterForPerformingArts": {
+                        "courses": [
+                            "Foundation Certificate in Music (Kalā Ādhār)",
+                            "Foundation Certificate in Manipuri Dance (Kalā Ādhār)",
+                            "Certificate in Dance Appreciation (Kalā Sparsh)",
+                            "Foundation Certificate in Odissi Dance (Kalā Ādhār)",
+                            "Foundation Certificate in Kathak Dance (Kalā Ādhār)",
+                            "Certificate in Spoken Sanskrit (Saṃskritāyanam)",
+                            "Certificate in Indian Theatre Arts (Rangārka)"
+                        ]
+                    }
+                },
+                "socialScience": {
+                    "CollegeOfJournalismAndMassCommunication": {
+                        "courses": [
+                            "Radio Jockey",
+                            "Video Production",
+                            "Certificate in Video Production"
+                        ]
+                    },
+                    "DepartmentOfPhotography": {
+                        "courses": [
+                            "Certificate in Basics of Photography"
+                        ]
+                    },
+                    "InstituteOfIndianAndForeignLanguages": {
+                        "courses": [
+                            "Certificate in Sanskrit",
+                            "Certificate in French",
+                            "Certificate in German",
+                            "Certificate in Spanish",
+                            "Certificate Program for Preparations of IELTS"
+                        ]
+                    },
+                    "InstituteOfSocialSciences": {
+                        "courses": [
+                            "Archaeology and Heritage Studies",
+                            "Certificate Course in Indian Numismatics"
+                        ]
                     }
                 }
             }
