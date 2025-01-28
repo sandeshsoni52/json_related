@@ -471,38 +471,43 @@
                 },
                 "management": {
                     "hotelManagement": {
-                        "courses": []
-                    },
-                    "InstituteOfManagementAndResearch": {
-                        "courses": []
-                    },
-                    "NathSchoolOfBusinessAndTechnology": {
-                        "courses": []
+                        "courses": [
+                            "Diploma Program in Hotel Operations",
+                            "Diploma in Bakery and Patisserie"
+                        ]
                     }
                 },
                 "performingArts": {
                     "MAHAGAMIGURUKULCenterForPerformingArts": {
-                        "courses": []
+                        "courses": [
+                            "Diploma in Kathak Dance (Kalā Udayan Kathak)",
+                            "Diploma in Dhrupad Music (Kalā Udayan)",
+                            "Diploma in Odissi Dance (Kala Udayan Odissi)",
+                            "Diploma in Natyashastra (Nātyārpana)"
+                        ]
                     }
                 },
                 "socialScience": {
-                    "CollegeOfJournalismAndMassCommunication": {
-                        "courses": []
-                    },
                     "DepartmentOfPhotography": {
-                        "courses": []
+                        "courses": [
+                            "Diploma in Photography"
+                        ]
                     },
                     "InstituteOfIndianAndForeignLanguages": {
-                        "courses": []
-                    },
-                    "InstituteOfSocialSciences": {
-                        "courses": []
+                        "courses": [
+                            "Diploma in Creative Writing in English",
+                            "Diploma in French",
+                            "Diploma in German",
+                            "Diploma in Urdu",
+                            "Diploma Program in Japanese",
+                            "Diploma in Translation Studies",
+                            "Diploma in Persian"
+                        ]
                     },
                     "SchoolOfFilmArts": {
-                        "courses": []
-                    },
-                    "SchoolOfLegalStudiesAndResearch": {
-                        "courses": []
+                        "courses": [
+                            "Diploma in Filmmaking"
+                        ]
                     }
                 }
             },
