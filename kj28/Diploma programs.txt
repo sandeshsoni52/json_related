@@ -1,0 +1,128 @@
+{
+  "Programs": [
+    {
+      "ProgramLevel": "Diploma Programs",
+      "Categories": [
+        {
+          "CategoryName": "Engineering & Technology",
+          "Institutions": [
+            {
+              "InstitutionName": "Institute of Fire Service Engineering",
+              "Courses": [
+                "Diploma in Fire Service Engg"
+              ]
+            },
+            {
+              "InstitutionName": "School of Engineering & Technology",
+              "Courses": [
+                "Diploma in Electric Vehicle Technology",
+                "Diploma in Drone Technology"
+              ]
+            },
+            {
+              "InstitutionName": "University Department of Pharmaceutical Sciences",
+              "Courses": [
+                "Diploma in Pharmacy"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Basic & Applied Science",
+          "Institutions": [
+            {
+              "InstitutionName": "School of Basic & Applied Science",
+              "Courses": [
+                "UG Diploma in Forensic Science and Crime Scene Management",
+                "Diploma in Early Childhood care and Education (DECE)"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Management & Commerce",
+          "Institutions": [
+            {
+              "InstitutionName": "Institute of Hotel Management",
+              "Courses": [
+                "Diploma Program in Hotel Operations",
+                "Diploma in Bakery and Patisserie"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Social Science & Humanities",
+          "Institutions": [
+            {
+              "InstitutionName": "School of Film Arts",
+              "Courses": [
+                "Diploma in Filmmaking"
+              ]
+            },
+            {
+              "InstitutionName": "Department of Photography",
+              "Courses": [
+                "Diploma in Photography"
+              ]
+            },
+            {
+              "InstitutionName": "Institute of Indian & Foreign Languages",
+              "Courses": [
+                "Diploma in Creative Writing in English",
+                "Diploma in French",
+                "Diploma in German",
+                "Diploma in Urdu",
+                "Diploma Program in Japanese",
+                "Diploma in Translation Studies",
+                "Diploma in Persian"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Interdisciplinary Studies",
+          "Institutions": [
+            {
+              "InstitutionName": "Department of Sports, Physical Education & Yog Science",
+              "Courses": [
+                "Diploma in Yoga Trainer"
+              ]
+            },
+            {
+              "InstitutionName": "School of Interdisciplinary Studies",
+              "Courses": [
+                "Diploma Course in Lifelong Learning"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Performing Arts",
+          "Institutions": [
+            {
+              "InstitutionName": "MAHĀGĀMI GURUKUL Center for Performing Arts",
+              "Courses": [
+                "Diploma in Kathak Dance (Kalā Udayan Kathak)",
+                "Diploma in Dhrupad Music (Kalā Udayan)",
+                "Diploma in Odissi Dance (Kala Udayan Odissi)",
+                "Diploma in Natyashastra (Nātyārpana)"
+              ]
+            }
+          ]
+        },
+        {
+          "CategoryName": "Design",
+          "Institutions": [
+            {
+              "InstitutionName": "Leonardo Da Vinci School of Design",
+              "Courses": [
+                "Advance Diploma in Fashion Design and Boutique Management"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
