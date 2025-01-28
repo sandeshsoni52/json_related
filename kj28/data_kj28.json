@@ -481,88 +481,6 @@
                     }
                 }
             },
-            "ug_blank_duplicate": {
-                "basicAppliedScience": {
-                    "Dr.G.Y.PathrikarCollegeOfComputerScienceAndInformationTechnology": {
-                        "courses": []
-                    },
-                    "InstituteOfBioscienceAndTechnology": {
-                        "courses": []
-                    },
-                    "SchoolOfBasicAndAppliedScience": {
-                        "courses": []
-                    }
-                },
-                "design": {
-                    "LeonardoDaVinciSchoolOfDesign": {
-                        "courses": []
-                    }
-                },
-                "engineering": {
-                    "InstituteOfFireServiceEngineering": {
-                        "courses": []
-                    },
-                    "JawaharlalNehruEngineeringCollege": {
-                        "courses": []
-                    },
-                    "SchoolOfEngineeringAndTechnology": {
-                        "courses": []
-                    },
-                    "UniversityDepartmentOfInformationAndCommunicationTechnology": {
-                        "courses": []
-                    },
-                    "UniversityDepartmentOfPharmaceuticalSciences": {
-                        "courses": []
-                    }
-                },
-                "interdisciplinaryStudies": {
-                    "DepartmentOfEducation": {
-                        "courses": []
-                    },
-                    "DepartmentOfSportsPhysicalEducationAndYogScience": {
-                        "courses": []
-                    },
-                    "UniversityDepartmentOfMusicAndTheatre": {
-                        "courses": []
-                    }
-                },
-                "management": {
-                    "hotelManagement": {
-                        "courses": []
-                    },
-                    "InstituteOfManagementAndResearch": {
-                        "courses": []
-                    },
-                    "NathSchoolOfBusinessAndTechnology": {
-                        "courses": []
-                    }
-                },
-                "performingArts": {
-                    "MAHAGAMIGURUKULCenterForPerformingArts": {
-                        "courses": []
-                    }
-                },
-                "socialScience": {
-                    "CollegeOfJournalismAndMassCommunication": {
-                        "courses": []
-                    },
-                    "DepartmentOfPhotography": {
-                        "courses": []
-                    },
-                    "InstituteOfIndianAndForeignLanguages": {
-                        "courses": []
-                    },
-                    "InstituteOfSocialSciences": {
-                        "courses": []
-                    },
-                    "SchoolOfFilmArts": {
-                        "courses": []
-                    },
-                    "SchoolOfLegalStudiesAndResearch": {
-                        "courses": []
-                    }
-                }
-            },
             "certificate": {
                 "design": {
                     "LeonardoDaVinciSchoolOfDesign": {
@@ -653,7 +571,7 @@
                         ]
                     }
                 },
-                "Design": {
+                "design": {
                     "LeonardoDaVinciSchoolOfDesign": {
                         "courses": [
                             "DSY Bachelor of Fashion Design",
@@ -728,6 +646,86 @@
                             "PG Diploma in Taxation Law",
                             "PG Diploma in Labor Law and Labor Welfare",
                             "PG Diploma in Cyber Law"
+                        ]
+                    }
+                }
+            },
+            "phd": {
+                "basicAppliedScience": {
+                    "Dr.G.Y.PathrikarCollegeOfComputerScienceAndInformationTechnology": {
+                        "courses": [
+                            "Computer Science and Information Technology"
+                        ]
+                    },
+                    "InstituteOfBioscienceAndTechnology": {
+                        "courses": [
+                            "Ph.D. in Biotechnology",
+                            "Ph.D. in Bioinformatics",
+                            "Ph.D. in Microbiology",
+                            "Ph.D. in Food Technology",
+                            "Ph.D. in Plant Breeding & Molecular Genetics",
+                            "Ph.D. in Plant Biotechnology",
+                            "Ph.D. in Biochemistry"
+                        ]
+                    },
+                    "SchoolOfBasicAndAppliedScience": {
+                        "courses": [
+                            "Ph.D. in Chemistry",
+                            "Ph.D. in Mathematics"
+                        ]
+                    }
+                },
+                "engineering": {
+                    "JawaharlalNehruEngineeringCollege": {
+                        "courses": [
+                            "Ph.D. in Chemical Engineering",
+                            "Ph.D. in Civil Engineering",
+                            "Ph.D. in Computer Science Engineering",
+                            "Ph.D. in Electronics & Telecommunication Engineering"
+                        ]
+                    },
+                    "UniversityDepartmentOfInformationAndCommunicationTechnology": {
+                        "courses": [
+                            "Ph.D. in Information Technology"
+                        ]
+                    }
+                },
+                "interdisciplinaryStudies": {
+                    "SchoolOfInterdisciplinaryStudies": {
+                        "courses": [
+                            "Ph.D. in Philosophy"
+                        ]
+                    },
+                    "UniversityDepartmentOfMusicAndTheatre": {
+                        "courses": [
+                            "Ph.D. in Theatre Arts"
+                        ]
+                    }
+                },
+                "management": {
+                    "hotelManagement": {
+                        "courses": [
+                            "Ph.D. in Hotel Management and Tourism Management"
+                        ]
+                    },
+                    "InstituteOfManagementAndResearch": {
+                        "courses": [
+                            "Ph.D. in Management Science"
+                        ]
+                    }
+                },
+                "socialScience": {
+                    "InstituteOfIndianAndForeignLanguages": {
+                        "courses": [
+                            "Ph.D. in English",
+                            "Ph.D. in Hindi"
+                        ]
+                    },
+                    "InstituteOfSocialSciences": {
+                        "courses": [
+                            "Ph.D. in Social Work",
+                            "Ph.D. in Economics",
+                            "Ph.D. in Psychology"
                         ]
                     }
                 }
