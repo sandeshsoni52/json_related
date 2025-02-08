@@ -16,9 +16,6 @@ def get_all_data():
 
 @app.route('/all/<program_type>', methods=['GET'])
 def get_program_type(program_type):
-    # valid_program_types = ["undergraduate", "postgraduate"]  # Define valid program types
-    # if program_type not in valid_program_types:
-    #     return jsonify({"error": f"Invalid program type '{program_type}'. Valid types are: {', '.join(valid_program_types)}"}), 400
 
     # Directly use program_type as a key in the data dictionary
     filtered_data = data["Programs"].get(program_type)
@@ -30,8 +27,6 @@ def get_program_type(program_type):
 
 @app.route('/all/<program_type>/<category>', methods=['GET'])
 def get_category(program_type, category):
-    # program_type = program_type.replace("-", " ")  # Handle spaces in URLs
-    # category = category.replace("-", " ")  # Handle spaces in URLs
     program_data = data["Programs"].get(program_type)
     if program_data and category in program_data:
         return jsonify({category: program_data[category]})
@@ -40,9 +35,6 @@ def get_category(program_type, category):
 
 @app.route('/all/<program_type>/<category>/<institute>', methods=['GET'])
 def get_institute(program_type, category, institute):
-    # program_type = program_type.replace("-", " ")  # Handle spaces in URLs
-    # category = category.replace("-", " ")  # Handle spaces in URLs
-    # institute = institute.replace("-", " ")  # Handle spaces in URLs
 
     program_data = data["Programs"].get(program_type)
     if program_data:

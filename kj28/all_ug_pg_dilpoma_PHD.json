@@ -1,0 +1,735 @@
+[
+    {
+        "programs": {
+            "undergraduate": {
+                "basicAppliedScience": {
+                    "Dr.G.Y.PathrikarCollegeOfComputerScienceAndInformationTechnology": {
+                        "courses": [
+                            "B Sc Hons. Computer Science",
+                            "B Sc Hons. Information Technology",
+                            "B Sc Hons. Science",
+                            "B Sc Hons. Animation",
+                            "B Sc Hons. Robotics",
+                            "B Sc Hons. Digital Marketing",
+                            "M Sc Data Science (Integrated)"
+                        ]
+                    },
+                    "InstituteOfBioscienceAndTechnology": {
+                        "courses": [
+                            "B Sc Hons. Biotechnology",
+                            "B Sc Hons. Bioinformatics",
+                            "B Sc Hons. Microbiology",
+                            "B Sc Hons. Food Technology & Processing",
+                            "B Sc Hons. Food Nutrition & Dietetics",
+                            "B Tech Biotechnology",
+                            "B Tech Food Processing Technology",
+                            "B Tech Biomedical Engineering"
+                        ]
+                    },
+                    "SchoolOfBasicAndAppliedScience": {
+                        "courses": [
+                            "B Sc Hons. Physics",
+                            "B Sc Hons. Chemistry",
+                            "B Sc Hons. Mathematics",
+                            "B Sc Hons. Statistics",
+                            "B Sc Hons. Geology",
+                            "B Sc Hons. Home Science",
+                            "B Sc Hons. Environmental Science",
+                            "B Sc Hons. Zoology",
+                            "B Sc Hons. Forensic Science",
+                            "B Tech Cosmetic Technology"
+                        ]
+                    }
+                },
+                "design": {
+                    "LeonardoDaVinciSchoolOfDesign": {
+                        "courses": [
+                            "BFA Applied Art",
+                            "BFA Contemporary Art",
+                            "BFA Traditional Art and Craft",
+                            "B Des Interior Design",
+                            "B Des Fashion Design",
+                            "B Des Textile Design",
+                            "B Des Industrial Design",
+                            "B Des Visual Communication"
+                        ]
+                    }
+                },
+                "engineering": {
+                    "InstituteOfFireServiceEngineering": {
+                        "courses": [
+                            "B Sc Fire and Safety"
+                        ]
+                    },
+                    "JawaharlalNehruEngineeringCollege": {
+                        "courses": [
+                            "B Tech Chemical Engineering",
+                            "B Tech Civil Engineering",
+                            "B Tech Computer Science and Engineering",
+                            "B Tech Electrical and Computer Engineering",
+                            "B Tech Mechanical Engineering",
+                            "B Tech Robotics and Artificial Intelligence",
+                            "B Tech Mechanical and Mechatronics Engineering (Additive Manufacturing)",
+                            "B Tech Electronics and Computer Engineering",
+                            "B Tech Artificial Intelligence & Data Science",
+                            "Bachelor Architecture"
+                        ]
+                    },
+                    "SchoolOfEngineeringAndTechnology": {
+                        "courses": [
+                            "B Tech Agriculture Engineering",
+                            "B Tech Computer Science & Engineering (IoT, Cyber Security)",
+                            "B Tech Electrical and Instrumentation Engineering",
+                            "B Tech (Integrated) Civil Engineering with Computer Application",
+                            "B Tech (Integrated) Computer Science and Engineering (Data Science)",
+                            "B Tech (Integrated) Computer Science and Engineering (IoT)",
+                            "B Tech (Integrated) Advanced Mechatronics and Industrial Automation",
+                            "B Tech (Integrated) Robotics and AI",
+                            "B Tech Electronic Engineering (VLSI Design and Technology)",
+                            "B Tech (Integrated) Information Technology",
+                            "B Tech (Integrated) Electrical and Computer Engineering",
+                            "B Tech Computer Science and Design",
+                            "B Tech Robotics and Automation"
+                        ]
+                    },
+                    "UniversityDepartmentOfInformationAndCommunicationTechnology": {
+                        "courses": [
+                            "B Tech Information Technology",
+                            "B Tech AI & ML",
+                            "B Tech Data Science"
+                        ]
+                    },
+                    "UniversityDepartmentOfPharmaceuticalSciences": {
+                        "courses": [
+                            "Bachelor Pharmacy"
+                        ]
+                    }
+                },
+                "interdisciplinaryStudies": {
+                    "DepartmentOfEducation": {
+                        "courses": [
+                            "B A Hons. Education"
+                        ]
+                    },
+                    "DepartmentOfSportsPhysicalEducationAndYogScience": {
+                        "courses": [
+                            "B P E S Bachelor of Physical Education & Sports"
+                        ]
+                    },
+                    "UniversityDepartmentOfMusicAndTheatre": {
+                        "courses": [
+                            "BPA Music",
+                            "BPA Theatre"
+                        ]
+                    }
+                },
+                "management": {
+                    "hotelManagement": {
+                        "courses": [
+                            "B Sc Hons. Hotel Operations Catering Services",
+                            "BBA Hons. in Aviation, Hospitality and Travel & Tourism",
+                            "B Sc Hons. Culinary Arts"
+                        ]
+                    },
+                    "InstituteOfManagementAndResearch": {
+                        "courses": [
+                            "BBA Hons./ Hons. with Research",
+                            "BBA Hons./ Hons. with Research in FinTech",
+                            "BBA Hons./ Hons. with Research in Business Analytics",
+                            "B Com Hons./ Hons. with Research"
+                        ]
+                    },
+                    "NathSchoolOfBusinessAndTechnology": {
+                        "courses": [
+                            "Bachelor Management Studies (BMS)",
+                            "BCA Cloud Technology & Information Security",
+                            "MCA Digital Product Technology",
+                            "MCA Artificial Intelligence - Data Science",
+                            "BMS Entrepreneurship, Family Business and Innovation"
+                        ]
+                    }
+                },
+                "performingArts": {
+                    "MAHAGAMIGURUKULCenterForPerformingArts": {
+                        "courses": [
+                            "BPA Kathak (Lab and Kathak)",
+                            "BPA Odissi (Lab and Gurukul)"
+                        ]
+                    }
+                },
+                "socialScience": {
+                    "CollegeOfJournalismAndMassCommunication": {
+                        "courses": [
+                            "B A International Journalism & Electronic Media",
+                            "B A Hons./Reg. with Research in Mass Communication and Media"
+                        ]
+                    },
+                    "DepartmentOfPhotography": {
+                        "courses": [
+                            "B A Hons. Photography"
+                        ]
+                    },
+                    "InstituteOfIndianAndForeignLanguages": {
+                        "courses": [
+                            "B A Hons. English"
+                        ]
+                    },
+                    "InstituteOfSocialSciences": {
+                        "courses": [
+                            "Bachelor Social Work (BSW)",
+                            "B A Hons. Psychology",
+                            "B A Hons. Economics"
+                        ]
+                    },
+                    "SchoolOfFilmArts": {
+                        "courses": [
+                            "B A Hons. Cinematography",
+                            "B A Hons. Film Direction",
+                            "B A Hons. Film Editing",
+                            "B A Hons. Sound Designing & Music Production",
+                            "B A Hons. VFX and Animation",
+                            "B A Hons. Film Acting",
+                            "B A Hons. Production Design & Art Direction"
+                        ]
+                    },
+                    "SchoolOfLegalStudiesAndResearch": {
+                        "courses": [
+                            "Bachelor Law (LL.B.)",
+                            "BBA Bachelor of Business Administration and Bachelor of Law"
+                        ]
+                    }
+                }
+            },
+            "postgraduate": {
+                "basicAppliedScience": {
+                    "Dr.G.Y.PathrikarCollegeOfComputerScienceAndInformationTechnology": {
+                        "courses": [
+                            "M.Sc. (Computer Science)",
+                            "M.Sc. (Information Technology)",
+                            "M.Sc. (Animation)",
+                            "M.Sc. (Data Science)"
+                        ]
+                    },
+                    "InstituteOfBioscienceAndTechnology": {
+                        "courses": [
+                            "M.Sc. Biotechnology",
+                            "M.Sc. (Bioinformatics)",
+                            "M.Sc. (Microbiology/Virology)",
+                            "M.Sc. (Food Technology)",
+                            "M.Sc. Plant Breeding & Molecular Genetics"
+                        ]
+                    },
+                    "SchoolOfBasicAndAppliedScience": {
+                        "courses": [
+                            "M.Sc. Physics",
+                            "M.Sc. Chemistry",
+                            "M.Sc. Mathematics",
+                            "M.Sc. Statistics",
+                            "M.Sc. Cosmetic Technology",
+                            "M.Sc. Applied Geology",
+                            "M.Sc. Home Science",
+                            "M.Sc. Environmental Science",
+                            "M.Sc. BioPhysics",
+                            "M.Sc. Forensic Science",
+                            "M.Sc. Industrial Mathematics"
+                        ]
+                    }
+                },
+                "design": {
+                    "LeonardoDaVinciSchoolOfDesign": {
+                        "courses": [
+                            "M. Des. Textile Design",
+                            "M.F.M. Fashion Management",
+                            "M. Des. Product Design",
+                            "M. Des. Jewellery Design",
+                            "M. Des. Interaction & Interface Design",
+                            "M. Des. Furniture Design",
+                            "MFA Contemporary Art",
+                            "M. Des. Interior Design",
+                            "M. Des. Fashion Design"
+                        ]
+                    }
+                },
+                "engineering": {
+                    "JawaharlalNehruEngineeringCollege": {
+                        "courses": [
+                            "M. Arch. (Environmental Architecture)",
+                            "M.Tech. Computer Science and Engineering (Digital Transformation)",
+                            "M.Tech. VLSI and Embedded Systems",
+                            "M.Tech. Electrical Power System",
+                            "M.Tech. Structural Engineering",
+                            "Masters in Computer Applications (MCA)",
+                            "M.Tech. Mechanical Engineering",
+                            "M. Arch (Urban and Regional Planning)"
+                        ]
+                    },
+                    "SchoolOfEngineeringAndTechnology": {
+                        "courses": [
+                            "M.Tech Energy Engineering",
+                            "M.Tech Environmental Engineering",
+                            "M.Tech Medical Technology",
+                            "M.Tech Industrial Engineering and Management",
+                            "M.Tech Design Engineering",
+                            "M.Tech (Integrated) Computer Science and Engineering (AI and Machine Learning)"
+                        ]
+                    },
+                    "UniversityDepartmentOfInformationAndCommunicationTechnology": {
+                        "courses": [
+                            "M.Tech. Data Science",
+                            "M.Tech Artificial Intelligence and Machine Learning"
+                        ]
+                    }
+                },
+                "management": {
+                    "hotelManagement": {
+                        "courses": [
+                            "M. Sc. (Hotel Operations Catering Services)"
+                        ]
+                    },
+                    "InstituteOfManagementAndResearch": {
+                        "courses": [
+                            "Master of Business Administration (M.B.A)",
+                            "Executive MBA",
+                            "M.Com"
+                        ]
+                    },
+                    "NathSchoolOfBusinessAndTechnology": {
+                        "courses": [
+                            "Master of Management Studies (MMS)"
+                        ]
+                    }
+                },
+                "interdisciplinaryStudies": {
+                    "DepartmentOfEducation": {
+                        "courses": [
+                            "M.A. Physical Education",
+                            "M.A. Yog Science"
+                        ]
+                    },
+                    "DepartmentOfSportsPhysicalEducationAndYogScience": {
+                        "courses": [
+                            "M.A. Physical Education",
+                            "M.A. Yog Science"
+                        ]
+                    },
+                    "DepartmentOfGandhianStudies": {
+                        "courses": [
+                            "M.A. (Gandhian Studies)"
+                        ]
+                    },
+                    "SchoolOfInterdisciplinaryStudies": {
+                        "courses": [
+                            "Master of Library & Info Science",
+                            "M.A. Philosophy",
+                            "M.A. General Studies",
+                            "M.A. Women and Gender studies",
+                            "M.A. Buddhist Studies"
+                        ]
+                    }
+                },
+                "performingArts": {
+                    "MAHAGAMIGURUKULCenterForPerformingArts": {
+                        "courses": [
+                            "MPA in Kathak (Kala Kovid Kathak)",
+                            "MPA in Odissi (Kala Kovid Odissi)",
+                            "Master of Art (M.A.) – Musicology",
+                            "Master of Art (M.A.) – Indology"
+                        ]
+                    }
+                },
+                "socialScience": {
+                    "CollegeOfJournalismAndMassCommunication": {
+                        "courses": [
+                            "M.A. Mass Communication & Journalism",
+                            "M.A. Broadcast Communication"
+                        ]
+                    },
+                    "DepartmentOfPhotography": {
+                        "courses": [
+                            "M.A. International Photography"
+                        ]
+                    },
+                    "InstituteOfIndianAndForeignLanguages": {
+                        "courses": [
+                            "M.A. (English)",
+                            "M.A. (Marathi)",
+                            "M.A. (Hindi)",
+                            "M.A. (Urdu)",
+                            "M.A. (Sanskrit)"
+                        ]
+                    },
+                    "InstituteOfSocialSciences": {
+                        "courses": [
+                            "Master of Social Work (MSW)",
+                            "M.A. (Clinical Psychology)",
+                            "M.A. Economics (Sustainable Entrepreneurship)",
+                            "M.A Economics (Strong Sustainability Research)",
+                            "M.A. Social Management",
+                            "Master of Public Health",
+                            "M.A. Political Science & Governance",
+                            "M.A. Sports Psychology",
+                            "M.A. History and Archaeology",
+                            "M.A. Child Psychology"
+                        ]
+                    },
+                    "SchoolOfFilmArts": {
+                        "courses": [
+                            "M.A. in Cinematography",
+                            "M.A. in Film Direction",
+                            "M.A. in Film Editing",
+                            "M.A. in Sound Designing & Music Production",
+                            "M.A. in VFX and Animation",
+                            "M.A. in Film Acting",
+                            "M.A. in Production Design & Art Direction"
+                        ]
+                    },
+                    "SchoolOfLegalStudiesAndResearch": {
+                        "courses": [
+                            "L.L.M. Intellectual Property Rights and Property Law",
+                            "L.L.M. Criminal and Security Law",
+                            "L.L.M. Constitutional and Administrative Law",
+                            "L.L.M. Business Law"
+                        ]
+                    }
+                }
+            },
+            "diploma": {
+                "basicAppliedScience": {
+                    "SchoolOfBasicAndAppliedScience": {
+                        "courses": [
+                            "UG Diploma in Forensic Science and Crime Scene Management",
+                            "Diploma in Early Childhood care and Education (DECE)"
+                        ]
+                    }
+                },
+                "design": {
+                    "LeonardoDaVinciSchoolOfDesign": {
+                        "courses": [
+                            "Advance Diploma in Fashion Design and Boutique Management"
+                        ]
+                    }
+                },
+                "engineering": {
+                    "InstituteOfFireServiceEngineering": {
+                        "courses": [
+                            "Diploma in Fire Service Engg"
+                        ]
+                    },
+                    "SchoolOfEngineeringAndTechnology": {
+                        "courses": [
+                            "Diploma in Electric Vehicle Technology",
+                            "Diploma in Drone Technology"
+                        ]
+                    },
+                    "UniversityDepartmentOfPharmaceuticalSciences": {
+                        "courses": [
+                            "Diploma in Pharmacy"
+                        ]
+                    }
+                },
+                "interdisciplinaryStudies": {
+                    "DepartmentOfSportsPhysicalEducationAndYogScience": {
+                        "courses": [
+                            "Diploma in Yoga Trainer"
+                        ]
+                    },
+                    "SchoolOfInterdisciplinaryStudies": {
+                        "courses": [
+                            "Diploma Course in Lifelong Learning"
+                        ]
+                    }
+                },
+                "management": {
+                    "hotelManagement": {
+                        "courses": [
+                            "Diploma Program in Hotel Operations",
+                            "Diploma in Bakery and Patisserie"
+                        ]
+                    }
+                },
+                "performingArts": {
+                    "MAHAGAMIGURUKULCenterForPerformingArts": {
+                        "courses": [
+                            "Diploma in Kathak Dance (Kalā Udayan Kathak)",
+                            "Diploma in Dhrupad Music (Kalā Udayan)",
+                            "Diploma in Odissi Dance (Kala Udayan Odissi)",
+                            "Diploma in Natyashastra (Nātyārpana)"
+                        ]
+                    }
+                },
+                "socialScience": {
+                    "DepartmentOfPhotography": {
+                        "courses": [
+                            "Diploma in Photography"
+                        ]
+                    },
+                    "InstituteOfIndianAndForeignLanguages": {
+                        "courses": [
+                            "Diploma in Creative Writing in English",
+                            "Diploma in French",
+                            "Diploma in German",
+                            "Diploma in Urdu",
+                            "Diploma Program in Japanese",
+                            "Diploma in Translation Studies",
+                            "Diploma in Persian"
+                        ]
+                    },
+                    "SchoolOfFilmArts": {
+                        "courses": [
+                            "Diploma in Filmmaking"
+                        ]
+                    }
+                }
+            },
+            "certificate": {
+                "design": {
+                    "LeonardoDaVinciSchoolOfDesign": {
+                        "courses": [
+                            "Certificate Course in Fashion Design and Boutique Management",
+                            "Certificate Course in Painting",
+                            "Certificate Course in Bidri Works",
+                            "Certificate Course in Ceramics and Pottery",
+                            "UG Certificate Course in Animation and Graphic Design"
+                        ]
+                    }
+                },
+                "interdisciplinaryStudies": {
+                    "DepartmentOfGandhianStudies": {
+                        "courses": [
+                            "Constitution and Human Rights",
+                            "Dealing with Conflict",
+                            "Social Responsibility"
+                        ]
+                    },
+                    "UniversityDepartmentOfMusicAndTheatre": {
+                        "courses": [
+                            "Certificate Course in Folk Music",
+                            "Certificate Course in Music Instruments",
+                            "Certificate Course in Sugam Sangeet",
+                            "Certificate Course in Theatre Art"
+                        ]
+                    }
+                },
+                "performingArts": {
+                    "MAHAGAMIGURUKULCenterForPerformingArts": {
+                        "courses": [
+                            "Foundation Certificate in Music (Kalā Ādhār)",
+                            "Foundation Certificate in Manipuri Dance (Kalā Ādhār)",
+                            "Certificate in Dance Appreciation (Kalā Sparsh)",
+                            "Foundation Certificate in Odissi Dance (Kalā Ādhār)",
+                            "Foundation Certificate in Kathak Dance (Kalā Ādhār)",
+                            "Certificate in Spoken Sanskrit (Saṃskritāyanam)",
+                            "Certificate in Indian Theatre Arts (Rangārka)"
+                        ]
+                    }
+                },
+                "socialScience": {
+                    "CollegeOfJournalismAndMassCommunication": {
+                        "courses": [
+                            "Radio Jockey",
+                            "Video Production",
+                            "Certificate in Video Production"
+                        ]
+                    },
+                    "DepartmentOfPhotography": {
+                        "courses": [
+                            "Certificate in Basics of Photography"
+                        ]
+                    },
+                    "InstituteOfIndianAndForeignLanguages": {
+                        "courses": [
+                            "Certificate in Sanskrit",
+                            "Certificate in French",
+                            "Certificate in German",
+                            "Certificate in Spanish",
+                            "Certificate Program for Preparations of IELTS"
+                        ]
+                    },
+                    "InstituteOfSocialSciences": {
+                        "courses": [
+                            "Archaeology and Heritage Studies",
+                            "Certificate Course in Indian Numismatics"
+                        ]
+                    }
+                }
+            },
+            "directsecondyear": {
+                "engineering": {
+                    "JawaharlalNehruEngineeringCollege": {
+                        "courses": [
+                            "DSY B.Tech Civil Engineering",
+                            "DSY B.Tech Mechanical Engineering",
+                            "DSY B.Tech Chemical Engineering",
+                            "DSY B.Tech Computer Science Engineering",
+                            "DSY B.Tech Electronics and Computer Engineering",
+                            "DSY B.Tech Electrical and Computer Engineering",
+                            "DSY B.Tech Robotics and Artificial Intelligence",
+                            "DSY B.Tech Mechanical and Mechatronics Engineering",
+                            "DSY B.Tech Artificial Intelligence (AI) and Data Science",
+                            "DSY B.Tech Civil Engineering (Construction Technology)",
+                            "DSY B.Tech Civil Engineering with Computer Application"
+                        ]
+                    }
+                },
+                "design": {
+                    "LeonardoDaVinciSchoolOfDesign": {
+                        "courses": [
+                            "DSY Bachelor of Fashion Design",
+                            "DSY Bachelor of Textile Design"
+                        ]
+                    }
+                }
+            },
+            "pgdiploma": {
+                "basicAppliedScience": {
+                    "SchoolOfBasicAndAppliedScience": {
+                        "courses": [
+                            "PG Diploma in Forensic Science and Crime Scene Management"
+                        ]
+                    }
+                },
+                "design": {
+                    "LeonardoDaVinciSchoolOfDesign": {
+                        "courses": [
+                            "PG Diploma in Fashion Management"
+                        ]
+                    }
+                },
+                "engineering": {
+                    "InstituteOfFireServiceEngineering": {
+                        "courses": [
+                            "Advance Diploma in Industrial Safety",
+                            "Advanced Diploma in Fire and Safety Engineering",
+                            "PG Diploma in Disaster Management"
+                        ]
+                    }
+                },
+                "interdisciplinaryStudies": {
+                    "SchoolOfInterdisciplinaryStudies": {
+                        "courses": [
+                            "PG Diploma in Cosmetic Technology"
+                        ]
+                    }
+                },
+                "management": {
+                    "hotelManagement": {
+                        "courses": [
+                            "Post Degree Diploma Program in Hotel Operations"
+                        ]
+                    },
+                    "InstituteOfManagementAndResearch": {
+                        "courses": [
+                            "PG Diploma in Hospital Management",
+                            "PG Diploma in Sports Management",
+                            "PG Diploma in FinTech"
+                        ]
+                    }
+                },
+                "socialScience": {
+                    "CollegeOfJournalismAndMassCommunication": {
+                        "courses": [
+                            "Advertising & Public Relations"
+                        ]
+                    },
+                    "DepartmentOfPhotography": {
+                        "courses": [
+                            "PG Diploma in Still Photography"
+                        ]
+                    },
+                    "InstituteOfSocialSciences": {
+                        "courses": [
+                            "PG Diploma in Guidance & Counseling"
+                        ]
+                    },
+                    "SchoolOfLegalStudiesAndResearch": {
+                        "courses": [
+                            "PG Diploma in Taxation Law",
+                            "PG Diploma in Labor Law and Labor Welfare",
+                            "PG Diploma in Cyber Law"
+                        ]
+                    }
+                }
+            },
+            "phd": {
+                "basicAppliedScience": {
+                    "Dr.G.Y.PathrikarCollegeOfComputerScienceAndInformationTechnology": {
+                        "courses": [
+                            "Computer Science and Information Technology"
+                        ]
+                    },
+                    "InstituteOfBioscienceAndTechnology": {
+                        "courses": [
+                            "Ph.D. in Biotechnology",
+                            "Ph.D. in Bioinformatics",
+                            "Ph.D. in Microbiology",
+                            "Ph.D. in Food Technology",
+                            "Ph.D. in Plant Breeding & Molecular Genetics",
+                            "Ph.D. in Plant Biotechnology",
+                            "Ph.D. in Biochemistry"
+                        ]
+                    },
+                    "SchoolOfBasicAndAppliedScience": {
+                        "courses": [
+                            "Ph.D. in Chemistry",
+                            "Ph.D. in Mathematics"
+                        ]
+                    }
+                },
+                "engineering": {
+                    "JawaharlalNehruEngineeringCollege": {
+                        "courses": [
+                            "Ph.D. in Chemical Engineering",
+                            "Ph.D. in Civil Engineering",
+                            "Ph.D. in Computer Science Engineering",
+                            "Ph.D. in Electronics & Telecommunication Engineering"
+                        ]
+                    },
+                    "UniversityDepartmentOfInformationAndCommunicationTechnology": {
+                        "courses": [
+                            "Ph.D. in Information Technology"
+                        ]
+                    }
+                },
+                "interdisciplinaryStudies": {
+                    "SchoolOfInterdisciplinaryStudies": {
+                        "courses": [
+                            "Ph.D. in Philosophy"
+                        ]
+                    },
+                    "UniversityDepartmentOfMusicAndTheatre": {
+                        "courses": [
+                            "Ph.D. in Theatre Arts"
+                        ]
+                    }
+                },
+                "management": {
+                    "hotelManagement": {
+                        "courses": [
+                            "Ph.D. in Hotel Management and Tourism Management"
+                        ]
+                    },
+                    "InstituteOfManagementAndResearch": {
+                        "courses": [
+                            "Ph.D. in Management Science"
+                        ]
+                    }
+                },
+                "socialScience": {
+                    "InstituteOfIndianAndForeignLanguages": {
+                        "courses": [
+                            "Ph.D. in English",
+                            "Ph.D. in Hindi"
+                        ]
+                    },
+                    "InstituteOfSocialSciences": {
+                        "courses": [
+                            "Ph.D. in Social Work",
+                            "Ph.D. in Economics",
+                            "Ph.D. in Psychology"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+]
